@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+# ReactJS: Todo list challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Tiempo estimado:
+2 a 3 horas 
 
-## Available Scripts
+El candidato debe generar una pantalla de login con nombre y contraseña de manera que una vez enviado el formulario se guarden los datos de forma local (localStorage u otra forma de persistencia del estado), y le permita al usuario acceder a la siguiente pantalla en la cual se le mostrará un listado de tareas a realizar. 
 
-In the project directory, you can run:
+En la carga inicial las tareas deben figurar como no realizadas y a medida que el usuario las marque como realizadas (a través de un checkbox u otras soluciones de UI a criterio del candidato), se guarde este cambio en el estado y se modifique la vista de la tarea para que se entienda que está marcada como hecha.
 
-### `npm start`
+El listado de tareas se debe extraer de una API y el código debe estar preparado para lidiar con errores en la requisición a la API, con un mensaje de error en la vista para estos casos.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Se espera que el candidato tenga nivel de Inglés técnico (para leer documentación), por lo tanto el mismo debe encontrar en la página https://jsonplaceholder.typicode.com/ el endpoint adecuado para para obtener el listado de tareas (todo list).
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Requisitos:
 
-### `npm test`
+- Utilizar redux para manejar el estado
+- Utilizar al menos un componente funcional
+- Utilizar al menos un React Hook
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Entrega:
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+El resultado se puede compartir a través de un repositorio en github (ideal) o un archivo zip.
