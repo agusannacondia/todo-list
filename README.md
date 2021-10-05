@@ -1,22 +1,33 @@
-# ReactJS: Todo list challenge
+# To-do Challenge
 
-## Tiempo estimado:
-2 a 3 horas 
+## Instalación
 
-El candidato debe generar una pantalla de login con nombre y contraseña de manera que una vez enviado el formulario se guarden los datos de forma local (localStorage u otra forma de persistencia del estado), y le permita al usuario acceder a la siguiente pantalla en la cual se le mostrará un listado de tareas a realizar. 
+Para instalar las dependencias necesarias, primero hay que ejecutar el comando:
 
-En la carga inicial las tareas deben figurar como no realizadas y a medida que el usuario las marque como realizadas (a través de un checkbox u otras soluciones de UI a criterio del candidato), se guarde este cambio en el estado y se modifique la vista de la tarea para que se entienda que está marcada como hecha.
+```
+npm install
+```
 
-El listado de tareas se debe extraer de una API y el código debe estar preparado para lidiar con errores en la requisición a la API, con un mensaje de error en la vista para estos casos.
+## Uso
 
-Se espera que el candidato tenga nivel de Inglés técnico (para leer documentación), por lo tanto el mismo debe encontrar en la página https://jsonplaceholder.typicode.com/ el endpoint adecuado para para obtener el listado de tareas (todo list).
+Para correr el cliente, ejecutar:
 
-## Requisitos:
+```
+npm run start
+```
 
-- Utilizar redux para manejar el estado
-- Utilizar al menos un componente funcional
-- Utilizar al menos un React Hook
+El cliente se podrá visitar desde la ruta [http://localhost:3000](http://localhost:3000) si es que no se encuentra ocupada.
 
-## Entrega:
+## Herramientas
 
-El resultado se puede compartir a través de un repositorio en github (ideal) o un archivo zip.
+Las tecnologías utilizadas para la resolución del challenge fueron:
+
+-   [React](https://es.reactjs.org/)
+-   [React Router](https://reactrouter.com/)
+-   [Chakra UI](https://chakra-ui.com/)
+
+## Cliente
+
+El cliente esta construido con ReactJS. El proyecto fue construido por medio de [Create React App](https://create-react-app.dev/) para agilizar su configuración. Para el routeo se usó [React Router](https://reactrouter.com/web/guides/quick-start).
+
+Para manejar los estilos de la aplicación se decidió por usar [Chakra UI](https://chakra-ui.com/), ya que reduce el tiempo de escritura del código, gana legibilidad y proporciona estructuras avanzadas que son muy útiles a la hora de generar aplicaciones de poco a mediano tamaño.
