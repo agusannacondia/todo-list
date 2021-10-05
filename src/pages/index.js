@@ -7,15 +7,15 @@ const user = getUserLogged()
 
 const pages = [
     {
-        path: '/',
+        path: `${process.env.NAME}/`,
         component: user ? Dashboard : Login
     },
     {
-        path: '/login',
+        path: `${process.env.NAME}/login`,
         component: Login
     },
     {
-        path: '*',
+        path: `${process.env.NAME}/*`,
         component: NotFound
     },
 ]
